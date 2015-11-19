@@ -1,0 +1,9 @@
+rm -f *.o
+g++ -Wall -g -c Lab7.cpp funkcje.cpp
+g++ -Wall -g -c Motorbike.cpp
+g++ -Wall -g -c Vehicle.cpp
+g++ -Wall -g -c Yamaha.cpp
+g++ -Wall -g -c Car.cpp
+g++ -Wall -g -c Ferrari.cpp
+g++ -Wall -g -o lab07.out *.o
+rm -f *.o
